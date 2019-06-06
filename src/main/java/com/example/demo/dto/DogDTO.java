@@ -3,6 +3,7 @@ package com.example.demo.dto;
 public class DogDTO {
 	private long id;
     private String name;
+    
     private int age;
 	public long getId() {
 		return id;

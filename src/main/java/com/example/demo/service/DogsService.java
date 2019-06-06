@@ -31,6 +31,9 @@ public class DogsService {
         Dog entity = new Dog();
         entity.setName(dto.getName());
         entity.setAge(dto.getAge());
+        if(dto.getId()!=0L) {
+        	entity.setId(dto.getId());	
+        }
         return entity;
     }
 }
